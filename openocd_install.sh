@@ -42,7 +42,7 @@ fi
 
 
 # unzip the compiled OpenOCD
-unzip openocd_compiled.zip
+sudo unzip openocd_compiled.zip
 
 # Put the configuration files into /usr/local/share
 sudo cp -rn openocd_compiled/files/openocd /usr/local/share
