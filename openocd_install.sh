@@ -54,6 +54,6 @@ sudo cp -rn openocd_compiled/openocd /usr/bin
 sudo chmod +x /usr/bin/openocd
 
 # Remove the unzipped files
-rm -rf openocd_compiled
+sudo rm -rf openocd_compiled
 
 popd > /dev/null
